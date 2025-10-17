@@ -1,0 +1,14 @@
+services:
+   postgres:
+      image: postgres:16
+      container_name: mercadoapi_postgres
+      environment:
+         POSTGRES_DB: bd_mercado
+         POSTGRES_USER: mercado_coti
+         POSTGRES_PASSWORD: senha_coti
+      ports:
+         - "5435:5432"
+      volumes:
+         - postgres_data:/var/lib/postgresql/data
+volumes:
+    postgres_data:
