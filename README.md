@@ -2,6 +2,7 @@
 
 **Um CRUD moderno de produtos para mercados, com interface dark, modais elegantes e toasts animados.**  
 Permite **cadastrar, consultar, editar e excluir produtos**, com validações inteligentes de estoque e preço.
+Ele se conecta à **API MercadoWeb** (backend em [Repositório da API MercadoWeb](https://github.com/Sambonha/mercadoWeb)) para gerenciamento de **Produtos**, consumindo os serviços disponíveis.
 
 ---
 
